@@ -2,10 +2,9 @@ from copy import deepcopy
 import random
 import pisqpipe as pp
 from pisqpipe import DEBUG_EVAL, DEBUG
-from board_info_helper import check_win, Adjacent, generate_board_value_lists
 from CriticNetwork import CriticNetwork
 from Debug import logDebug, logTraceBack, DEBUG_LOGFILE
-from Board import Board
+from Board import Board, check_win, Adjacent, generate_board_value_lists
 import pickle
 import os
 
